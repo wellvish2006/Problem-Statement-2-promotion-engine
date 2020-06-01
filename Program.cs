@@ -21,13 +21,13 @@ namespace ConsoleApp2
                 SKU p = new SKU(type);
                 skus.Add(p);
             }
-
             int totalPrice = GetTotalPrice(skus);
             Console.WriteLine(totalPrice);
             Console.ReadLine();
         }
         private static int GetTotalPrice(List<SKU> products)
         {
+
             int ctrA = 0;
             int priceA = 50;
             int ctrB = 0;
